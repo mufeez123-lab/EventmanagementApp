@@ -1,0 +1,136 @@
+/* src/EventList.css */
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.event-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 20px;
+    width: 240px;
+    overflow: hidden;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 128, 0, 0.2);
+}
+
+.event-info {
+    margin-bottom: 12px;
+}
+
+.event-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.event-date {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.event-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.delete-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff5f5f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #e60000;
+}
+
+.rem-para {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    position: relative;
+    top: -10px;
+    left: 0;
+}
+
+.gfg {
+    padding: 12px 20px;
+    color: white;
+    background-color: rgb(6, 162, 6);
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gfg:hover {
+    background-color: rgb(4, 120, 4);
+}
+
+/* Form Styling */
+input {
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    background-color: #fff8dc; /* Cornsilk color for a warm, subtle look */
+    border-color: rgb(255, 203, 71);
+    box-shadow: 0 0 5px rgba(246, 255, 71, 0.5);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solidrgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 12px;
+    gap: 15px;
+    background: linear-gradient(to right,rgb(231, 229, 127),rgb(163, 190, 10));
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #333;
+}
